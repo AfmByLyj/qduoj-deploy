@@ -21,7 +21,7 @@ services:
 
   judge-server:
     # image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/judge_server
-    image: registry.cn-heyuan.aliyuncs.com/afmwes/oj:judge-beta01
+    image: registry.cn-heyuan.aliyuncs.com/afmwes/oj:judge-beta02
     container_name: judge-server
     restart: always
     # read_only: true
@@ -47,7 +47,7 @@ services:
   oj-backend:
     # image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/oj_backend
     # image: registry.cn-heyuan.aliyuncs.com/afmwes/oj-backend:v2
-    image: registry.cn-heyuan.aliyuncs.com/afmwes/oj:backend-beta03
+    image: registry.cn-heyuan.aliyuncs.com/afmwes/oj:backend-beta04
     container_name: oj-backend
     restart: always
     depends_on:
