@@ -1,4 +1,4 @@
-[简体中文](https://github.com/AfmByLyj/qduoj-deploy/blob/main/README.en.md) | English
+[简体中文](https://github.com/AfmByLyj/qduoj-deploy/blob/main/README.md) | English
 
 ## Environmental preparation (Linux)
 
